@@ -1,37 +1,68 @@
+$highlight: orangered;
+$shadow: rgb(201, 201, 201);
 body {
     background-color: rgb(255, 255, 255);
+    a {
+      color: rgb(206, 86, 43);
+    }
     form {
         margin: 0 0 0 0;
-        padding: 10px;
-        background-color: orangered;
+        padding: 10px 0;
+        background-color: $highlight;
+        width: 100%;
         input {
             border: none;
             padding: 10px 20px;
             width: 60%;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
         }
         button {
             border: none;
             padding: 10px 20px;
             cursor: pointer;
+            background-color: $shadow;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
         }
     }
-    div#articles {
-        background-color: rgb(201, 201, 201);
-        padding: 0 5%;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        .header {
-            display: flex;
-            flex-direction: row;
-        }
-        .info {
+    div.article {
+      padding: 0 0;
+      // width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2% 0;
+      .content {
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: $shadow;
+        width: 95%;
+          .header {
+              display: flex;
+              flex-direction: row;
+              text-align: center;
+              h1 {
+                color: black;
+                text-align: center;
+                width: 100%;
+              }
+          }
+          .info {
+            margin-top: 30px;
+            height: 25px;
+            border-top: 2px darkgray solid;
             display: flex;
             flex-direction: row;
             width: 100%;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
             p {
                 padding: 0 30px;
             }
+          }
         }
     }
 }

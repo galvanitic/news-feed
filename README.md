@@ -1,3 +1,7 @@
+## NEWS LIST
+Created By Rodolfo Galván & Ahmed Quraish
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

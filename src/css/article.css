@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+}
+
+body form {
+  margin: 0 0 0 0;
+  padding: 10px;
+  background-color: orangered;
+}
+
+body form input {
+  border: none;
+  padding: 10px 20px;
+  width: 60%;
+}
+
+body form button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+body div#articles {
+  background-color: #c9c9c9;
+  padding: 0 5%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body div#articles .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body div#articles .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+body div#articles .info p {
+  padding: 0 30px;
+}
+/*# sourceMappingURL=article.css.map */
